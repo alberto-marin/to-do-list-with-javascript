@@ -1,0 +1,13 @@
+
+/* Display mode by default */
+li input {
+  display: none;
+}
+
+/* Edit mode */
+li.edit span {
+  display: none;
+}
+li.edit input {
+  display: inherit;
+}

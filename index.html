@@ -7,16 +7,29 @@
     <script src="script.js"></script>
   </head>
   <body>
+    <!--
+          https://www.youtube.com/watch?v=0tEW8rB1bbU
+          Javascript Events
+    -->
     <header class="hero">
       <h1>Write that shit down</h1>
       <p>Do it and do it right, right now</p>
     </header>
     <main>
-      <div>
-        <ul >
-          <li><input type="text" name="" value="Call mom"></li>
-          <li><input type="text" name="" value="Buy milk"></li>
-          <li><input type="text" name="" value="Code"></li>
+      <div class="container">
+        <ul class="list" id="todolist">
+          <li class="list-element">
+            <span>Call mom</span> <!-- Display mode -->
+            <input type="text" name="" value="Call mom"> <!-- Edit mode -->
+          </li>
+          <li class="list-element">
+            <span>Buy milk</span> <!-- Display mode -->
+            <input type="text" name="" value="Buy milk"> <!-- Edit mode -->
+          </li>
+          <li class="list-element">
+            <span>Code</span> <!-- Display mode -->
+            <input type="text" name="" value="Code"> <!-- Edit mode -->
+          </li>
         </ul>
       </div>
     </main>
