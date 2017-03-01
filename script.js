@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded',function(){
   /* Update the element only when Enter is press */
   function updateElement(event) {
     this.previousElementSibling.innerHTML = this.value;
-    this.parentNode.className = '';
+    this.parentNode.className = 'list-group-item';
   }
 
   function elementKeyPress(event) {

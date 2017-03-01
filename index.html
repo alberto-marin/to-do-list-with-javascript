@@ -3,6 +3,7 @@
   <head>
     <meta name="charset" content="utf-8">
     <title>my To Do List in javaScript</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
   </head>
@@ -11,28 +12,31 @@
           https://www.youtube.com/watch?v=0tEW8rB1bbU
           Javascript Events
     -->
-    <header class="hero">
-      <h1>Write that shit down</h1>
-      <p>Do it and do it right, right now</p>
-    </header>
-    <main>
-      <div class="container">
-        <ul class="list" id="todolist">
-          <li class="list-element">
-            <span>Call mom</span> <!-- Display mode -->
-            <input type="text" name="" value="Call mom"> <!-- Edit mode -->
-          </li>
-          <li class="list-element">
-            <span>Buy milk</span> <!-- Display mode -->
-            <input type="text" name="" value="Buy milk"> <!-- Edit mode -->
-          </li>
-          <li class="list-element">
-            <span>Code</span> <!-- Display mode -->
-            <input type="text" name="" value="Code"> <!-- Edit mode -->
-          </li>
-        </ul>
-      </div>
-    </main>
+    <div class="container">
+      <header class="jumbotron text-center">
+        <h1>Write that shit down</h1>
+        <p>Do it and do it right, right now</p>
+      </header>
+      <main>
+
+          <div class="row">
+            <ul class="list-group" id="todolist">
+              <li class="list-group-item">
+                <span>Call mom</span> <!-- Display mode -->
+                <input type="text" name="" value="Call mom"> <!-- Edit mode -->
+              </li>
+              <li class="list-group-item">
+                <span>Buy milk</span> <!-- Display mode -->
+                <input type="text" name="" value="Buy milk"> <!-- Edit mode -->
+              </li>
+              <li class="list-group-item">
+                <span>Code</span> <!-- Display mode -->
+                <input type="text" name="" value="Code"> <!-- Edit mode -->
+              </li>
+            </ul>
+          </div> <!-- /row -->
+      </main>
+    </div> <!-- /container -->
     <footer>
 
     </footer>

@@ -1,4 +1,6 @@
-
+ul {
+  list-style-type: none;
+}
 /* Display mode by default */
 li input {
   display: none;
